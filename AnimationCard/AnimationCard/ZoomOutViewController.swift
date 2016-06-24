@@ -29,7 +29,7 @@ class ZoomOutViewController: UIViewController, UICollectionViewDelegate,UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for var i in 0...19 {
+        for var i in 0...9 {
             dataArray.append("00" + "\(i)" + ".jpg")
         }
         
